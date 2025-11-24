@@ -1,0 +1,1346 @@
+[
+    {
+        "id": "rem_001",
+        "nombre": "Remera Basic White Premium",
+        "categoria": "remeras",
+        "marca": "Basics",
+        "precio": {
+            "regular": 25000,
+            "oferta": 20000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 1.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 2.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 2.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 2.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 2.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 2.png",
+                "alt": "Remera blanca lisa"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Basic White Premium 3.png",
+                "alt": "Remera blanca lisa"
+            }
+        ],
+        "chip": {
+            "label": "20% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 50,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ]
+            }
+        ],
+        "slug": "remera-basic-white-premium"
+    },
+    {
+        "id": "rem_002",
+        "nombre": "Remera Oversize Street",
+        "categoria": "remeras",
+        "marca": "Urbania",
+        "precio": {
+            "regular": 32000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/image/productos/remeras/Remera Oversize Street 1.png",
+                "alt": "Remera negra ancha"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Oversize Street 2.png",
+                "alt": "Remera negra ancha"
+            },
+            {
+                "url": "/image/productos/remeras/Remera Oversize Street 3.png",
+                "alt": "Remera negra ancha"
+            }
+        ],
+        "chip": {
+            "label": "NUEVO",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 20,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Negro",
+                    "Gris"
+                ]
+            }
+        ],
+        "slug": "remera-oversize-street"
+    },
+    {
+        "id": "rem_003",
+        "nombre": "Remera Estampada Rock 80s",
+        "categoria": "remeras",
+        "marca": "VintageCo",
+        "precio": {
+            "regular": 28000,
+            "oferta": 25000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/rock-print.jpg",
+                "alt": "Remera banda rock"
+            },
+            {
+                "url": "/images/remeras/rock-print.jpg",
+                "alt": "Remera banda rock"
+            },
+            {
+                "url": "/images/remeras/rock-print.jpg",
+                "alt": "Remera banda rock"
+            }
+        ],
+        "chip": {
+            "label": "HOT SALE",
+            "style": "fuego",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 4,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "slug": "remera-estampada-rock-80s"
+    },
+    {
+        "id": "rem_004",
+        "nombre": "Polo Clásica Navy",
+        "categoria": "remeras",
+        "marca": "Gentleman",
+        "precio": {
+            "regular": 45000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/polo-navy.jpg",
+                "alt": "Chomba azul marino"
+            },
+            {
+                "url": "/images/remeras/polo-navy.jpg",
+                "alt": "Chomba azul marino"
+            },
+            {
+                "url": "/images/remeras/polo-navy.jpg",
+                "alt": "Chomba azul marino"
+            }
+        ],
+        "chip": {
+            "label": "",
+            "style": "",
+            "visible": false
+        },
+        "stock": {
+            "disponible": 15,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "S",
+                    "M",
+                    "L",
+                    "XXL"
+                ]
+            }
+        ],
+        "slug": "polo-clsica-navy"
+    },
+    {
+        "id": "rem_005",
+        "nombre": "Remera Deportiva Dry-Fit",
+        "categoria": "remeras",
+        "marca": "SportX",
+        "precio": {
+            "regular": 30000,
+            "oferta": 15000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/sport-neon.jpg",
+                "alt": "Remera deportiva"
+            },
+            {
+                "url": "/images/remeras/sport-neon.jpg",
+                "alt": "Remera deportiva"
+            },
+            {
+                "url": "/images/remeras/sport-neon.jpg",
+                "alt": "Remera deportiva"
+            }
+        ],
+        "chip": {
+            "label": "50% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 100,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Verde",
+                    "Naranja"
+                ]
+            }
+        ],
+        "slug": "remera-deportiva-dry-fit"
+    },
+    {
+        "id": "rem_006",
+        "nombre": "Musculosa Summer Vibes",
+        "categoria": "remeras",
+        "marca": "BeachWear",
+        "precio": {
+            "regular": 18000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/musculosa.jpg",
+                "alt": "Musculosa playa"
+            },
+            {
+                "url": "/images/remeras/musculosa.jpg",
+                "alt": "Musculosa playa"
+            },
+            {
+                "url": "/images/remeras/musculosa.jpg",
+                "alt": "Musculosa playa"
+            }
+        ],
+        "chip": {
+            "label": "TEMPORADA",
+            "style": "info",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 30,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "Unico"
+                ]
+            }
+        ],
+        "slug": "musculosa-summer-vibes"
+    },
+    {
+        "id": "rem_007",
+        "nombre": "Remera Manga Larga Thermal",
+        "categoria": "remeras",
+        "marca": "Winter",
+        "precio": {
+            "regular": 35000,
+            "oferta": 28000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/long-sleeve.jpg",
+                "alt": "Remera térmica"
+            },
+            {
+                "url": "/images/remeras/long-sleeve.jpg",
+                "alt": "Remera térmica"
+            },
+            {
+                "url": "/images/remeras/long-sleeve.jpg",
+                "alt": "Remera térmica"
+            }
+        ],
+        "chip": {
+            "label": "-$7000",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 12,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "L",
+                    "XL"
+                ]
+            }
+        ],
+        "slug": "remera-manga-larga-thermal"
+    },
+    {
+        "id": "rem_008",
+        "nombre": "Remera Batik Tie-Dye",
+        "categoria": "remeras",
+        "marca": "HippieChic",
+        "precio": {
+            "regular": 26000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/tie-dye.jpg",
+                "alt": "Remera colorida"
+            },
+            {
+                "url": "/images/remeras/tie-dye.jpg",
+                "alt": "Remera colorida"
+            },
+            {
+                "url": "/images/remeras/tie-dye.jpg",
+                "alt": "Remera colorida"
+            }
+        ],
+        "chip": {
+            "label": "POCAS UNIDADES",
+            "style": "alerta",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 2,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "S",
+                    "M"
+                ]
+            }
+        ],
+        "slug": "remera-batik-tie-dye"
+    },
+    {
+        "id": "rem_009",
+        "nombre": "Remera Cuello V Slim",
+        "categoria": "remeras",
+        "marca": "Basics",
+        "precio": {
+            "regular": 22000,
+            "oferta": 19800,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/v-neck.jpg",
+                "alt": "Remera cuello v"
+            },
+            {
+                "url": "/images/remeras/v-neck.jpg",
+                "alt": "Remera cuello v"
+            },
+            {
+                "url": "/images/remeras/v-neck.jpg",
+                "alt": "Remera cuello v"
+            }
+        ],
+        "chip": {
+            "label": "10% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 60,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Negro",
+                    "Blanco",
+                    "Azul"
+                ]
+            }
+        ],
+        "slug": "remera-cuello-v-slim"
+    },
+    {
+        "id": "rem_010",
+        "nombre": "Remera Logo Bordado",
+        "categoria": "remeras",
+        "marca": "PremiumBrand",
+        "precio": {
+            "regular": 40000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/remeras/logo-embroid.jpg",
+                "alt": "Remera bordada"
+            },
+            {
+                "url": "/images/remeras/logo-embroid.jpg",
+                "alt": "Remera bordada"
+            },
+            {
+                "url": "/images/remeras/logo-embroid.jpg",
+                "alt": "Remera bordada"
+            }
+        ],
+        "chip": {
+            "label": "EXCLUSIVO",
+            "style": "premium",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 10,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "slug": "remera-logo-bordado"
+    },
+    {
+        "id": "zap_001",
+        "nombre": "Runner Pro X200",
+        "categoria": "zapatillas",
+        "marca": "Speedy",
+        "precio": {
+            "regular": 150000,
+            "oferta": 120000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/runner-pro.jpg",
+                "alt": "Zapatillas running"
+            },
+            {
+                "url": "/images/zapatillas/runner-pro.jpg",
+                "alt": "Zapatillas running"
+            },
+            {
+                "url": "/images/zapatillas/runner-pro.jpg",
+                "alt": "Zapatillas running"
+            }
+        ],
+        "chip": {
+            "label": "OFERTA FLASH",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 8,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "39",
+                    "40",
+                    "41",
+                    "42"
+                ]
+            }
+        ],
+        "slug": "runner-pro-x200"
+    },
+    {
+        "id": "zap_002",
+        "nombre": "Urban Classic Canvas",
+        "categoria": "zapatillas",
+        "marca": "StreetWalk",
+        "precio": {
+            "regular": 80000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/canvas-black.jpg",
+                "alt": "Zapatillas de lona"
+            },
+            {
+                "url": "/images/zapatillas/canvas-black.jpg",
+                "alt": "Zapatillas de lona"
+            },
+            {
+                "url": "/images/zapatillas/canvas-black.jpg",
+                "alt": "Zapatillas de lona"
+            }
+        ],
+        "chip": {
+            "label": "CLÁSICO",
+            "style": "info",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 40,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40"
+                ]
+            }
+        ],
+        "slug": "urban-classic-canvas"
+    },
+    {
+        "id": "zap_003",
+        "nombre": "Air Jordan Style High",
+        "categoria": "zapatillas",
+        "marca": "BasketPro",
+        "precio": {
+            "regular": 220000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/high-top.jpg",
+                "alt": "Zapatillas basquet"
+            },
+            {
+                "url": "/images/zapatillas/high-top.jpg",
+                "alt": "Zapatillas basquet"
+            },
+            {
+                "url": "/images/zapatillas/high-top.jpg",
+                "alt": "Zapatillas basquet"
+            }
+        ],
+        "chip": {
+            "label": "NUEVO INGRESO",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 5,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Rojo/Blanco",
+                    "Azul/Negro"
+                ]
+            }
+        ],
+        "slug": "air-jordan-style-high"
+    },
+    {
+        "id": "zap_004",
+        "nombre": "Trekking Mountain Grip",
+        "categoria": "zapatillas",
+        "marca": "OutdoorLife",
+        "precio": {
+            "regular": 180000,
+            "oferta": 160000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/trekking.jpg",
+                "alt": "Zapatillas montaña"
+            },
+            {
+                "url": "/images/zapatillas/trekking.jpg",
+                "alt": "Zapatillas montaña"
+            },
+            {
+                "url": "/images/zapatillas/trekking.jpg",
+                "alt": "Zapatillas montaña"
+            }
+        ],
+        "chip": {
+            "label": "ENVIO GRATIS",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 12,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "41",
+                    "42",
+                    "43",
+                    "44"
+                ]
+            }
+        ],
+        "slug": "trekking-mountain-grip"
+    },
+    {
+        "id": "zap_005",
+        "nombre": "Skate Chunky 90s",
+        "categoria": "zapatillas",
+        "marca": "SkaterBoy",
+        "precio": {
+            "regular": 110000,
+            "oferta": 55000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/chunky.jpg",
+                "alt": "Zapatillas anchas skate"
+            },
+            {
+                "url": "/images/zapatillas/chunky.jpg",
+                "alt": "Zapatillas anchas skate"
+            },
+            {
+                "url": "/images/zapatillas/chunky.jpg",
+                "alt": "Zapatillas anchas skate"
+            }
+        ],
+        "chip": {
+            "label": "2x1",
+            "style": "danger",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 25,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "38",
+                    "39",
+                    "40"
+                ]
+            }
+        ],
+        "slug": "skate-chunky-90s"
+    },
+    {
+        "id": "zap_006",
+        "nombre": "Futuristas Silver Edition",
+        "categoria": "zapatillas",
+        "marca": "FutureWear",
+        "precio": {
+            "regular": 250000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/silver.jpg",
+                "alt": "Zapatillas plateadas"
+            },
+            {
+                "url": "/images/zapatillas/silver.jpg",
+                "alt": "Zapatillas plateadas"
+            },
+            {
+                "url": "/images/zapatillas/silver.jpg",
+                "alt": "Zapatillas plateadas"
+            }
+        ],
+        "chip": {
+            "label": "EDICION LIMITADA",
+            "style": "premium",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 2,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "40"
+                ]
+            }
+        ],
+        "slug": "futuristas-silver-edition"
+    },
+    {
+        "id": "zap_007",
+        "nombre": "Minimalist Leather White",
+        "categoria": "zapatillas",
+        "marca": "Pure",
+        "precio": {
+            "regular": 130000,
+            "oferta": 117000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/leather-white.jpg",
+                "alt": "Zapatillas cuero blanco"
+            },
+            {
+                "url": "/images/zapatillas/leather-white.jpg",
+                "alt": "Zapatillas cuero blanco"
+            },
+            {
+                "url": "/images/zapatillas/leather-white.jpg",
+                "alt": "Zapatillas cuero blanco"
+            }
+        ],
+        "chip": {
+            "label": "10% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 18,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "35",
+                    "36",
+                    "37",
+                    "38"
+                ]
+            }
+        ],
+        "slug": "minimalist-leather-white"
+    },
+    {
+        "id": "zap_008",
+        "nombre": "Botitas Retro Colors",
+        "categoria": "zapatillas",
+        "marca": "VintageCo",
+        "precio": {
+            "regular": 95000,
+            "oferta": 85000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/botitas-retro.jpg",
+                "alt": "Botitas coloridas"
+            },
+            {
+                "url": "/images/zapatillas/botitas-retro.jpg",
+                "alt": "Botitas coloridas"
+            },
+            {
+                "url": "/images/zapatillas/botitas-retro.jpg",
+                "alt": "Botitas coloridas"
+            }
+        ],
+        "chip": {
+            "label": "-$10.000",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 7,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Amarillo",
+                    "Violeta"
+                ]
+            }
+        ],
+        "slug": "botitas-retro-colors"
+    },
+    {
+        "id": "zap_009",
+        "nombre": "Training Flex",
+        "categoria": "zapatillas",
+        "marca": "GymMaster",
+        "precio": {
+            "regular": 100000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/zapatillas/training.jpg",
+                "alt": "Zapatillas entrenamiento"
+            },
+            {
+                "url": "/images/zapatillas/training.jpg",
+                "alt": "Zapatillas entrenamiento"
+            },
+            {
+                "url": "/images/zapatillas/training.jpg",
+                "alt": "Zapatillas entrenamiento"
+            }
+        ],
+        "chip": {
+            "label": "",
+            "style": "",
+            "visible": false
+        },
+        "stock": {
+            "disponible": 50,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "talle",
+                "opciones": [
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43"
+                ]
+            }
+        ],
+        "slug": "training-flex"
+    },
+    {
+        "id": "zap_010",
+        "nombre": "Slip-On Comfy",
+        "categoria": "zapatillas",
+        "marca": "Relax",
+        "precio": {
+            "regular": 60000,
+            "oferta": 48000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "https://i.pinimgs.com/736x/d4/56/f2/d456f272433144d5bd8b3d02ebd84859.jpg",
+                "alt": "Zapatillas sin cordones"
+            },
+            {
+                "url": "https://i.pinimgs.com/736x/d4/56/f2/d456f272433144d5bd8b3d02ebd84859.jpg",
+                "alt": "Zapatillas sin cordones"
+            },
+            {
+                "url": "https://i.pinimgs.com/736x/d4/56/f2/d456f272433144d5bd8b3d02ebd84859.jpg",
+                "alt": "Zapatillas sin cordones"
+            }
+        ],
+        "chip": {
+            "label": "20% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 30,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "color",
+                "opciones": [
+                    "Gris",
+                    "Azul"
+                ]
+            }
+        ],
+        "slug": "slip-on-comfy"
+    },
+    {
+        "id": "perf_001",
+        "nombre": "Blue Ocean Pour Homme",
+        "categoria": "perfumes",
+        "marca": "AquaScent",
+        "precio": {
+            "regular": 90000,
+            "oferta": 72000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/blue-ocean.jpg",
+                "alt": "Perfume azul hombre"
+            },
+            {
+                "url": "/images/perfumes/blue-ocean.jpg",
+                "alt": "Perfume azul hombre"
+            },
+            {
+                "url": "/images/perfumes/blue-ocean.jpg",
+                "alt": "Perfume azul hombre"
+            }
+        ],
+        "chip": {
+            "label": "20% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 15,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "50ml",
+                    "100ml"
+                ]
+            }
+        ],
+        "slug": "blue-ocean-pour-homme"
+    },
+    {
+        "id": "perf_002",
+        "nombre": "Rose Garden Essence",
+        "categoria": "perfumes",
+        "marca": "FloralBeauty",
+        "precio": {
+            "regular": 110000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/rose-garden.jpg",
+                "alt": "Perfume rosa mujer"
+            },
+            {
+                "url": "/images/perfumes/rose-garden.jpg",
+                "alt": "Perfume rosa mujer"
+            },
+            {
+                "url": "/images/perfumes/rose-garden.jpg",
+                "alt": "Perfume rosa mujer"
+            }
+        ],
+        "chip": {
+            "label": "BEST SELLER",
+            "style": "info",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 4,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "80ml"
+                ]
+            }
+        ],
+        "slug": "rose-garden-essence"
+    },
+    {
+        "id": "perf_003",
+        "nombre": "Woody Intense Gold",
+        "categoria": "perfumes",
+        "marca": "LuxParfum",
+        "precio": {
+            "regular": 150000,
+            "oferta": 140000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/wood-gold.jpg",
+                "alt": "Perfume dorado lujo"
+            },
+            {
+                "url": "/images/perfumes/wood-gold.jpg",
+                "alt": "Perfume dorado lujo"
+            },
+            {
+                "url": "/images/perfumes/wood-gold.jpg",
+                "alt": "Perfume dorado lujo"
+            }
+        ],
+        "chip": {
+            "label": "NUEVO",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 20,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "100ml"
+                ]
+            }
+        ],
+        "slug": "woody-intense-gold"
+    },
+    {
+        "id": "perf_004",
+        "nombre": "Citrus Splash Unisex",
+        "categoria": "perfumes",
+        "marca": "FreshCo",
+        "precio": {
+            "regular": 60000,
+            "oferta": 30000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/citrus.jpg",
+                "alt": "Perfume cítrico"
+            },
+            {
+                "url": "/images/perfumes/citrus.jpg",
+                "alt": "Perfume cítrico"
+            },
+            {
+                "url": "/images/perfumes/citrus.jpg",
+                "alt": "Perfume cítrico"
+            }
+        ],
+        "chip": {
+            "label": "50% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 50,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "200ml"
+                ]
+            }
+        ],
+        "slug": "citrus-splash-unisex"
+    },
+    {
+        "id": "perf_005",
+        "nombre": "Vanilla Dreams",
+        "categoria": "perfumes",
+        "marca": "SweetAroma",
+        "precio": {
+            "regular": 85000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/vanilla.jpg",
+                "alt": "Perfume vainilla"
+            },
+            {
+                "url": "/images/perfumes/vanilla.jpg",
+                "alt": "Perfume vainilla"
+            },
+            {
+                "url": "/images/perfumes/vanilla.jpg",
+                "alt": "Perfume vainilla"
+            }
+        ],
+        "chip": {
+            "label": "",
+            "style": "",
+            "visible": false
+        },
+        "stock": {
+            "disponible": 10,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "50ml"
+                ]
+            }
+        ],
+        "slug": "vanilla-dreams"
+    },
+    {
+        "id": "perf_006",
+        "nombre": "Night Mistery Black",
+        "categoria": "perfumes",
+        "marca": "DarkEssence",
+        "precio": {
+            "regular": 120000,
+            "oferta": 100000,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/black-night.jpg",
+                "alt": "Perfume botella negra"
+            },
+            {
+                "url": "/images/perfumes/black-night.jpg",
+                "alt": "Perfume botella negra"
+            },
+            {
+                "url": "/images/perfumes/black-night.jpg",
+                "alt": "Perfume botella negra"
+            }
+        ],
+        "chip": {
+            "label": "-$20.000",
+            "style": "warning",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 8,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "90ml"
+                ]
+            }
+        ],
+        "slug": "night-mistery-black"
+    },
+    {
+        "id": "perf_007",
+        "nombre": "Sport Energy Men",
+        "categoria": "perfumes",
+        "marca": "ActiveScent",
+        "precio": {
+            "regular": 45000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/sport-energy.jpg",
+                "alt": "Perfume deportivo"
+            },
+            {
+                "url": "/images/perfumes/sport-energy.jpg",
+                "alt": "Perfume deportivo"
+            },
+            {
+                "url": "/images/perfumes/sport-energy.jpg",
+                "alt": "Perfume deportivo"
+            }
+        ],
+        "chip": {
+            "label": "DIARIO",
+            "style": "info",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 60,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "100ml"
+                ]
+            }
+        ],
+        "slug": "sport-energy-men"
+    },
+    {
+        "id": "perf_008",
+        "nombre": "Jasmine Pure",
+        "categoria": "perfumes",
+        "marca": "FloralBeauty",
+        "precio": {
+            "regular": 98000,
+            "oferta": 93100,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/jasmine.jpg",
+                "alt": "Perfume jazmín"
+            },
+            {
+                "url": "/images/perfumes/jasmine.jpg",
+                "alt": "Perfume jazmín"
+            },
+            {
+                "url": "/images/perfumes/jasmine.jpg",
+                "alt": "Perfume jazmín"
+            }
+        ],
+        "chip": {
+            "label": "5% OFF",
+            "style": "success",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 12,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "60ml"
+                ]
+            }
+        ],
+        "slug": "jasmine-pure"
+    },
+    {
+        "id": "perf_009",
+        "nombre": "Oud Oriental",
+        "categoria": "perfumes",
+        "marca": "LuxParfum",
+        "precio": {
+            "regular": 210000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/oud.jpg",
+                "alt": "Perfume madera oud"
+            },
+            {
+                "url": "/images/perfumes/oud.jpg",
+                "alt": "Perfume madera oud"
+            },
+            {
+                "url": "/images/perfumes/oud.jpg",
+                "alt": "Perfume madera oud"
+            }
+        ],
+        "chip": {
+            "label": "ULTIMA UNIDAD",
+            "style": "alerta",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 1,
+            "bajo_stock": true
+        },
+        "variantes": [
+            {
+                "tipo": "volumen",
+                "opciones": [
+                    "100ml"
+                ]
+            }
+        ],
+        "slug": "oud-oriental"
+    },
+    {
+        "id": "perf_010",
+        "nombre": "Travel Kit Mini",
+        "categoria": "perfumes",
+        "marca": "MixScents",
+        "precio": {
+            "regular": 35000,
+            "oferta": null,
+            "moneda": "ARS"
+        },
+        "imgs": [
+            {
+                "url": "/images/perfumes/travel-kit.jpg",
+                "alt": "Set de perfumes mini"
+            },
+            {
+                "url": "/images/perfumes/travel-kit.jpg",
+                "alt": "Set de perfumes mini"
+            },
+            {
+                "url": "/images/perfumes/travel-kit.jpg",
+                "alt": "Set de perfumes mini"
+            }
+        ],
+        "chip": {
+            "label": "IDEAL REGALO",
+            "style": "secondary",
+            "visible": true
+        },
+        "stock": {
+            "disponible": 45,
+            "bajo_stock": false
+        },
+        "variantes": [
+            {
+                "tipo": "pack",
+                "opciones": [
+                    "3x10ml"
+                ]
+            }
+        ],
+        "slug": "travel-kit-mini"
+    }
+]

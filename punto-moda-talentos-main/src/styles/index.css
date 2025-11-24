@@ -1,0 +1,425 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+@theme inline {
+	/* primary */
+	--color-primary-50: var(--primary-50);
+	--color-primary-100: var(--primary-100);
+	--color-primary-200: var(--primary-200);
+	--color-primary-300: var(--primary-300);
+	--color-primary-400: var(--primary-400);
+	--color-primary-500: var(--primary-500);
+	--color-primary-600: var(--primary-600);
+	--color-primary-700: var(--primary-700);
+	--color-primary-800: var(--primary-800);
+	--color-primary-900: var(--primary-900);
+	--color-primary-950: var(--primary-950);
+
+	/* secondary */
+	--color-secondary-50: var(--secondary-50);
+	--color-secondary-100: var(--secondary-100);
+	--color-secondary-200: var(--secondary-200);
+	--color-secondary-300: var(--secondary-300);
+	--color-secondary-400: var(--secondary-400);
+	--color-secondary-500: var(--secondary-500);
+	--color-secondary-600: var(--secondary-600);
+	--color-secondary-700: var(--secondary-700);
+	--color-secondary-800: var(--secondary-800);
+	--color-secondary-900: var(--secondary-900);
+	--color-secondary-950: var(--secondary-950);
+
+	/* tertiary */
+	--color-tertiary-50: var(--tertiary-50);
+	--color-tertiary-100: var(--tertiary-100);
+	--color-tertiary-200: var(--tertiary-200);
+	--color-tertiary-300: var(--tertiary-300);
+	--color-tertiary-400: var(--tertiary-400);
+	--color-tertiary-500: var(--tertiary-500);
+	--color-tertiary-600: var(--tertiary-600);
+	--color-tertiary-700: var(--tertiary-700);
+	--color-tertiary-800: var(--tertiary-800);
+	--color-tertiary-900: var(--tertiary-900);
+	--color-tertiary-950: var(--tertiary-950);
+
+	/* background */
+	--color-background-50: var(--background-50);
+	--color-background-100: var(--background-100);
+	--color-background-200: var(--background-200);
+	--color-background-300: var(--background-300);
+	--color-background-400: var(--background-400);
+	--color-background-500: var(--background-500);
+	--color-background-600: var(--background-600);
+	--color-background-700: var(--background-700);
+	--color-background-800: var(--background-800);
+	--color-background-900: var(--background-900);
+	--color-background-950: var(--background-950);
+
+	/* text */
+	--color-text-50: var(--text-50);
+	--color-text-100: var(--text-100);
+	--color-text-200: var(--text-200);
+	--color-text-300: var(--text-300);
+	--color-text-400: var(--text-400);
+	--color-text-500: var(--text-500);
+	--color-text-600: var(--text-600);
+	--color-text-700: var(--text-700);
+	--color-text-800: var(--text-800);
+	--color-text-900: var(--text-900);
+	--color-text-950: var(--text-950);
+
+	/* danger */
+	--color-danger-50: var(--danger-50);
+	--color-danger-100: var(--danger-100);
+	--color-danger-200: var(--danger-200);
+	--color-danger-300: var(--danger-300);
+	--color-danger-400: var(--danger-400);
+	--color-danger-500: var(--danger-500);
+	--color-danger-600: var(--danger-600);
+	--color-danger-700: var(--danger-700);
+	--color-danger-800: var(--danger-800);
+	--color-danger-900: var(--danger-900);
+	--color-danger-950: var(--danger-950);
+
+	/* warning */
+	--color-warning-50: var(--warning-50);
+	--color-warning-100: var(--warning-100);
+	--color-warning-200: var(--warning-200);
+	--color-warning-300: var(--warning-300);
+	--color-warning-400: var(--warning-400);
+	--color-warning-500: var(--warning-500);
+	--color-warning-600: var(--warning-600);
+	--color-warning-700: var(--warning-700);
+	--color-warning-800: var(--warning-800);
+	--color-warning-900: var(--warning-900);
+	--color-warning-950: var(--warning-950);
+
+	/* success */
+	--color-success-50: var(--success-50);
+	--color-success-100: var(--success-100);
+	--color-success-200: var(--success-200);
+	--color-success-300: var(--success-300);
+	--color-success-400: var(--success-400);
+	--color-success-500: var(--success-500);
+	--color-success-600: var(--success-600);
+	--color-success-700: var(--success-700);
+	--color-success-800: var(--success-800);
+	--color-success-900: var(--success-900);
+	--color-success-950: var(--success-950);
+
+	/* info */
+	--color-info-50: var(--info-50);
+	--color-info-100: var(--info-100);
+	--color-info-200: var(--info-200);
+	--color-info-300: var(--info-300);
+	--color-info-400: var(--info-400);
+	--color-info-500: var(--info-500);
+	--color-info-600: var(--info-600);
+	--color-info-700: var(--info-700);
+	--color-info-800: var(--info-800);
+	--color-info-900: var(--info-900);
+	--color-info-950: var(--info-950);
+
+
+    /* Definimos la animación personalizada aquí */
+    --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+
+    /* fuentes */
+    --font-main: var(--font-family-base);
+
+    /* Definimos los keyframes */
+    @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+    }   
+
+}
+
+@layer base {
+	:root {
+		color-scheme: light;
+		--primary-l: 47.293%;
+		--primary-c: 0.04981;
+		--primary-h: 175.155;
+
+		--primary: #3c655a;
+		--secondary: oklch(from var(--primary) l c calc(h + 60));
+		--tertiary: oklch(from var(--primary) l c calc(h - 30));
+		--background: oklch(from var(--primary) l 0.01 h);
+		--text: oklch(from var(--primary) l 0.05 h);
+		--danger: oklch(from var(--primary) l calc(c + 0.05) 31.671);
+		--warning: oklch(from var(--primary) l calc(c + 0.05) 71.91);
+		--success: oklch(from var(--primary) l calc(c + 0.05) 157.08);
+		--info: oklch(from var(--primary) l calc(c + 0.05) 220.61);
+
+		/* primary */
+		--primary-50: oklch(from var(--primary) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--primary-100: oklch(from var(--primary) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--primary-200: oklch(from var(--primary) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--primary-300: oklch(from var(--primary) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--primary-400: oklch(from var(--primary) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--primary-500: oklch(from var(--primary) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--primary-600: #3c655a;
+		--primary-700: oklch(from var(--primary) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--primary-800: oklch(from var(--primary) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--primary-900: oklch(from var(--primary) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--primary-950: oklch(from var(--primary) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* secondary */
+		--secondary-50: oklch(from var(--secondary) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--secondary-100: oklch(from var(--secondary) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--secondary-200: oklch(from var(--secondary) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--secondary-300: oklch(from var(--secondary) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--secondary-400: oklch(from var(--secondary) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--secondary-500: oklch(from var(--secondary) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--secondary-600: var(--secondary);
+		--secondary-700: oklch(from var(--secondary) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--secondary-800: oklch(from var(--secondary) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--secondary-900: oklch(from var(--secondary) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--secondary-950: oklch(from var(--secondary) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* tertiary */
+		--tertiary-50: oklch(from var(--tertiary) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--tertiary-100: oklch(from var(--tertiary) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--tertiary-200: oklch(from var(--tertiary) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--tertiary-300: oklch(from var(--tertiary) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--tertiary-400: oklch(from var(--tertiary) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--tertiary-500: oklch(from var(--tertiary) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--tertiary-600: var(--tertiary);
+		--tertiary-700: oklch(from var(--tertiary) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--tertiary-800: oklch(from var(--tertiary) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--tertiary-900: oklch(from var(--tertiary) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--tertiary-950: oklch(from var(--tertiary) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* background */
+		--background-50: oklch(from var(--background) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--background-100: oklch(from var(--background) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--background-200: oklch(from var(--background) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--background-300: oklch(from var(--background) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--background-400: oklch(from var(--background) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--background-500: oklch(from var(--background) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--background-600: var(--background);
+		--background-700: oklch(from var(--background) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--background-800: oklch(from var(--background) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--background-900: oklch(from var(--background) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--background-950: oklch(from var(--background) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* text */
+		--text-50: oklch(from var(--text) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--text-100: oklch(from var(--text) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--text-200: oklch(from var(--text) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--text-300: oklch(from var(--text) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--text-400: oklch(from var(--text) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--text-500: oklch(from var(--text) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--text-600: var(--text);
+		--text-700: oklch(from var(--text) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--text-800: oklch(from var(--text) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--text-900: oklch(from var(--text) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--text-950: oklch(from var(--text) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* danger */
+		--danger-50: oklch(from var(--danger) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--danger-100: oklch(from var(--danger) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--danger-200: oklch(from var(--danger) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--danger-300: oklch(from var(--danger) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--danger-400: oklch(from var(--danger) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--danger-500: oklch(from var(--danger) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--danger-600: var(--danger);
+		--danger-700: oklch(from var(--danger) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--danger-800: oklch(from var(--danger) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--danger-900: oklch(from var(--danger) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--danger-950: oklch(from var(--danger) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* warning */
+		--warning-50: oklch(from var(--warning) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--warning-100: oklch(from var(--warning) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--warning-200: oklch(from var(--warning) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--warning-300: oklch(from var(--warning) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--warning-400: oklch(from var(--warning) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--warning-500: oklch(from var(--warning) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--warning-600: var(--warning);
+		--warning-700: oklch(from var(--warning) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--warning-800: oklch(from var(--warning) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--warning-900: oklch(from var(--warning) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--warning-950: oklch(from var(--warning) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* success */
+		--success-50: oklch(from var(--success) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--success-100: oklch(from var(--success) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--success-200: oklch(from var(--success) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--success-300: oklch(from var(--success) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--success-400: oklch(from var(--success) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--success-500: oklch(from var(--success) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--success-600: var(--success);
+		--success-700: oklch(from var(--success) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--success-800: oklch(from var(--success) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--success-900: oklch(from var(--success) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--success-950: oklch(from var(--success) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+		/* info */
+		--info-50: oklch(from var(--info) calc(l + 0.468) calc(c * 0.066) calc(h + 12));
+		--info-100: oklch(from var(--info) calc(l + 0.441) calc(c * 0.145) calc(h + 4));
+		--info-200: oklch(from var(--info) calc(l + 0.379) calc(c * 0.318) calc(h + 2.5));
+		--info-300: oklch(from var(--info) calc(l + 0.284) calc(c * 0.591) calc(h - 1.2));
+		--info-400: oklch(from var(--info) calc(l + 0.171) calc(c * 0.9) calc(h - 0.9));
+		--info-500: oklch(from var(--info) calc(l + 0.082) calc(c * 1.03) calc(h - 0.3));
+		--info-600: var(--info);
+		--info-700: oklch(from var(--info) calc(l - 0.073) calc(c * 0.82) calc(h + 4));
+		--info-800: oklch(from var(--info) calc(l - 0.12) calc(c * 0.68) calc(h + 3));
+		--info-900: oklch(from var(--info) calc(l - 0.18) calc(c * 0.6) calc(h + 6));
+		--info-950: oklch(from var(--info) calc(l - 0.226) calc(c * 0.47) calc(h + 9));
+
+        --font-family-base: "Montserrat", sans-serif;
+	}
+
+    .dark {
+        color-scheme: dark;
+    }
+
+    html,
+	body {
+		/* scroll-behavior: smooth; */
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+	}
+
+}
+
+/* Select Base Styles */
+select,
+::picker(select) {
+    appearance: base-select;
+    background-color: light-dark(var(--color-background-50), var(--color-background-800));
+    border: 2px solid light-dark(var(--color-secondary-400), var(--color-secondary-600));
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    color: light-dark(var(--color-secondary-600), var(--color-secondary-400));
+    font-family: var(--font-family-base);
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+}
+
+/* Select Hover State */
+select:hover {
+    background-color: light-dark(var(--color-primary-100), var(--color-primary-900));
+    color: light-dark(var(--color-primary-600), var(--color-primary-400));
+    transition: 0.2s all ease-in-out;
+    outline: 2px solid light-dark(var(--color-secondary-400), var(--color-secondary-600));
+}
+
+/* Picker Specifics */
+::picker(select) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: light-dark(var(--color-background-50), var(--color-background-800));
+}
+
+/* Picker Icon */
+select::picker-icon {
+    color: var(--color-primary-500);
+    transition: 0.2s rotate ease-in-out;
+    content: "";
+    width: 1.2em;
+    height: 1.2em;
+    background-color: currentColor;
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='icon icon-tabler icons-tabler-outline icon-tabler-chevron-down'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M6 9l6 6l6 -6' /></svg>");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+select:open::picker-icon {
+    rotate: 180deg;
+}
+
+/* Separator */
+select > hr {
+    border: 2px solid light-dark(var(--color-background-300), var(--color-background-700));
+    border-radius: 999px;
+}
+
+/* Options */
+option {
+    padding: 8px;
+    border-radius: 8px;
+    color: light-dark(var(--color-text-900), var(--color-text-50));
+}
+
+option:hover {
+    background-color: light-dark(var(--color-primary-100), var(--color-primary-800));
+    transition: 0.2s all ease-in-out;
+}
+
+/* Checkmark */
+option::checkmark {
+    color: light-dark(var(--color-primary-600), var(--color-primary-400));
+    content: "";
+    width: 1.2em;
+    height: 1.2em;
+    background-color: currentColor;
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='icon icon-tabler icons-tabler-outline icon-tabler-check'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M5 12l5 5l10 -10' /></svg>");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.mask-gradient-x {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.texto-display {
+	font-size: 3rem; /* text-5xl */
+	line-height: 3.25rem; /* leading-13 */
+	font-weight: 600; /* font-semibold */
+}
+.texto-headline {
+	font-family: var(--font-family-base);
+	font-size: 1.875rem; /* text-3xl */
+	line-height: 2.25rem; /* leading-9 */
+	font-weight: 500; /* font-medium */
+}
+.texto-title {
+	font-family: var(--font-family-base);
+	font-size: 1rem; /* text-base */
+	line-height: 1.5rem; /* leading-6 */
+	font-weight: 500; /* font-medium */
+	letter-spacing: 0.025em; /* tracking-wide */
+}
+.texto-body {
+	font-family: var(--font-family-base);
+	font-size: 0.875rem; /* text-sm */
+	line-height: 1.25rem; /* leading-5 */
+	font-weight: 300; /* font-light */
+	letter-spacing: 0.025em; /* tracking-wide */
+}
+.texto-label {
+	font-family: var(--font-family-base);
+	font-size: 0.875rem; /* text-sm */
+	line-height: 1rem; /* leading-4 */
+	font-weight: 400; /* font-normal */
+	letter-spacing: 0.025em; /* tracking-wide */
+}
