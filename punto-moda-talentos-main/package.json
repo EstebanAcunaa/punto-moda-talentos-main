@@ -7,11 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node src/backend/server.js",
+    "server:dev": "node --watch src/backend/server.js",
+    "db:seed": "node src/backend/scripts/seed.js"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.35.0",
     "@tailwindcss/vite": "^4.1.17",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
     "flowbite": "^4.0.1",
     "pg": "^8.16.3",
     "pg-hstore": "^2.3.4",

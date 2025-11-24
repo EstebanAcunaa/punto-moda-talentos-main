@@ -1,11 +1,20 @@
 import { Sequelize } from 'sequelize';
+import dotenv from 'dotenv';
 
-// uso el .env así es mas facil y no tengo que mostrar la constraseña 😛
-const sequelize = new Sequelize('punto-moda', 'postgres', 'punto-moda-password', {
-    host: 'localhost',
-    port: 5432,
-    dialect: 'postgres'
-});
+// Cargar variables de entorno
+dotenv.config();
+
+const sequelize = new Sequelize(
+    process.env.DB_NAME,
+    process.env.DB_USER,
+    process.env.DB_PASSWORD,
+    {
+        host: process.env.DB_HOST,
+        port: process.env.DB_PORT,
+        dialect: process.env.DB_DIALECT,
+        logging: process.env.NODE_ENV === 'development' ? console.log : false
+    }
+);
 
 const connectDB = async () => {
     try {
